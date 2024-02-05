@@ -1,6 +1,9 @@
-#Ignore media
+#Ignore media directory
 media/
 
 #Ignore temp files
 *.tmp
 .DS_Store
+
+#Ignore build directory
+build/
