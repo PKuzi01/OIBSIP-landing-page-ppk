@@ -1,0 +1,6 @@
+#Ignore media
+media/
+
+#Ignore temp files
+*.tmp
+.DS_Store
