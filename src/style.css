@@ -24,6 +24,7 @@
     --text-font: 'Montserrat', sans-serif;
     --heading-normal: 'Horizon';
     --heading-outlined: 'Horizon Outlined';
+    --letter-spacing: 2px;
 }
 
 /* Single-use value */
@@ -98,18 +99,25 @@ p, footer {
 
 .navbar-brand {
     color: #fff;
+    font-family: var(--heading-normal);
+    letter-spacing: var(--letter-spacing);
+}
+
+.navbar-brand:hover {
+    color: #fff;
+    text-decoration: #fff 2px underline;
+    
 }
 
 .nav-link {
-    font-family: var(--heading-font);
-    font-weight: 700;
+    font-family: var(--heading-outlined);
     color: #fff;
+    letter-spacing: var(--letter-spacing);
 }
 
 .nav-link:hover {
-    text-decoration: underline;
-    text-decoration-color: #fff;
-    text-decoration-thickness: 2px;
+    font-family: var(--heading-normal);
+    color: #fff;
 }
 
 /* Animation */
