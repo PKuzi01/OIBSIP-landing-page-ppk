@@ -158,8 +158,7 @@ p, footer {
 }
 
 /* Animation */
-/* Hero Text*/
-/* .floating {
+.floating {
     animation: float 3s infinite ease-in-out;
 }
 
@@ -173,45 +172,4 @@ p, footer {
     100% {
         transform: translateY(0);
     }
-} */
-
-/* Summary */
-/* .floating-1 {
-    animation: float 3s infinite ease-in-out;
-    animation-delay: 1s; 
 }
-
-@keyframes float {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
-
-/* Collage */
-/* .floating-2 {
-    animation: circle 5s infinite linear;
-}
-
-@keyframes circle {
-    0% {
-        transform: translateY(0) translateX(100px);
-    }
-    25% {
-        transform: translateY(-100px) translateX(0);
-    }
-    50% {
-        transform: translateY(0) translateX(-100px);
-    }
-    75% {
-        transform: translateY(100px) translateX(0);
-    }
-    100% {
-        transform: translateY(0) translateX(100px);
-    }
-} */
