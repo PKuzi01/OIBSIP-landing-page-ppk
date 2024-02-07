@@ -25,29 +25,16 @@
     --heading-normal: 'Horizon';
     --heading-outlined: 'Horizon Outlined';
     --letter-spacing: 2px;
+    --text-color: #dddbdb;
 }
 
 /* Single-use value */
-body {
-    background: #000;
-}
 body {
     background-image: url('../media/images/bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-color: rgba(255, 255, 255, 0.6); 
-}
-
-h1 {
-    font-size: 60px;
-}
-
-button {
-    padding: 8px;
-    border-radius: 12px;
-    border: none;
-    background: #E9E9E9;
+    background-color: rgba(255, 255, 255, 0.6);
 }
 
 .container {
@@ -57,23 +44,27 @@ button {
 
 .heroText {
     margin: var(--primary-margin);
-    color: #fff;
+    color: var(--text-color);
     text-align: center;
     letter-spacing: var(--letter-spacing);
 }
 
 .text1 {
     font-family: var(--heading-normal);
-    margin: 0px;
 }
 
 .text2 {
     font-family: var(--heading-outlined);
-    margin: 0px;
 }
 
 .summary {
-    width: 45%;
+    background-color: #191919aa;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.summary > p  {
+    margin: 20px 60px;
 }
 
 .nextPage {
@@ -81,20 +72,58 @@ button {
     margin: var(--primary-margin);
 }
 
-.nextPage > button {
-    margin: var(--secondary-margin);
+.nextPage > h3 {
+    font-size: 28px;
+    font-family: var(--heading-normal);
+    color: var(--text-color);
 }
 
-.footer {
-    position: relative;
+.nextPage > button {
+    margin: var(--secondary-margin);
+    font-family: var(--heading-normal);
+    color: var(--text-color);
+    font-size: 22px;
+    padding: 12px;
+    background: transparent;
+    border: 1px var(--text-color) solid;
+    border-radius: 12px;
+    transition: all 150ms ease-in-out;
+}
+
+.nextPage > button:hover {
+    color: #191919;
+    background: var(--text-color);
+    
+}
+
+.footer > footer {
     text-align: center;
-    margin: 60px auto 10px auto;
+    color: var(--text-color);
+    font-family: var(--heading-normal);
+    font-size: 10px;
+    letter-spacing: var(--letter-spacing);
+}
+
+.footer > footer > a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.footer > footer > a:hover {
+    font-family: var(--heading-outlined);
+    text-decoration: line-through 1px var(--text-color);
 }
 
 /* Same-value, multiple elements/class */
 p, footer {
     font-family: var(--text-font);
-    color: #fff;
+    color: var(--text-color);
+}
+
+.text1, .text2 {
+    margin: 0px;
+    font-size: 60px;
+    letter-spacing: var(--letter-spacing);
 }
 
 /* Tweaking bootstrap css vals */
@@ -105,26 +134,27 @@ p, footer {
 }
 
 .navbar-brand {
-    color: #fff;
+    color: var(--text-color);
     font-family: var(--heading-normal);
     letter-spacing: var(--letter-spacing);
 }
 
 .navbar-brand:hover {
-    color: #fff;
-    text-decoration: #fff 2px underline;
+    color: var(--text-color);
+    text-decoration: line-through 1px var(--text-color);
     
 }
 
 .nav-link {
     font-family: var(--heading-outlined);
-    color: #fff;
+    color: var(--text-color);
     letter-spacing: var(--letter-spacing);
 }
 
 .nav-link:hover {
     font-family: var(--heading-normal);
-    color: #fff;
+    color: var(--text-color);
+    text-decoration: line-through 1px var(--text-color);
 }
 
 /* Animation */
