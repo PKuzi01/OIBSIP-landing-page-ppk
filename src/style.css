@@ -76,6 +76,10 @@ p, footer {
     padding: 0 !important;
 }
 
+.navbar-brand {
+    color: #fff;
+}
+
 .nav-link {
     font-family: var(--heading-font);
     font-weight: 700;
