@@ -14,6 +14,10 @@ body {
     height: 100vh;
 }
 
+.logo {
+    margin-bottom: 3px;
+}
+
 footer {
     position: fixed;
     left: 0;
