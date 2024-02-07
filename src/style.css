@@ -1,13 +1,17 @@
 :root {
     --heading-font: 'Averia Serif Libre', serif;
     --text-font: 'Nunito', sans-serif;
-    --primary-margin: 60px auto;
-    --secondary-margin: 30px auto;
+    --primary-margin: 40px auto;
+    --secondary-margin: 10px auto;
 }
 
 /* Single-use value */
 body {
     background: linear-gradient(-180deg, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%);
+}
+
+h1 {
+    font-size: 60px;
 }
 
 footer {
@@ -42,7 +46,7 @@ footer {
 
 
 
-/* Same-value, multiple elements */
+/* Same-value, multiple elements/class */
 h1, h3 {
     font-family: var(--heading-font)
 }
