@@ -1,6 +1,3 @@
-#Ignore media directory
-media/
-
 #Ignore temp files
 *.tmp
 .DS_Store
