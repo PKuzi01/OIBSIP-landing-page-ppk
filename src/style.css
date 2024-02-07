@@ -1,7 +1,29 @@
+/* Fonts */
+/* Horizon */
+@font-face {
+    font-family: 'Horizon';
+    src: url(../media/Font/Horizon/OTF/horizon.otf) format('opentype'),
+         url(../media/Font/Horizon/TTF/horizon.ttf) format('truetype'),
+         url(../media/Font/Horizon/WOFF/horizon.woff) format('woff'),
+         url(../media/Font/Horizon/WOFF2/horizon.woff2) format('woff2');
+}
+
+/* Horizon Outlined */
+@font-face {
+    font-family: 'Horizon Outlined';
+    src: url(../media/Font/Horizon/OTF/horizon_outlined.otf) format('opentype'),
+         url(../media/Font/Horizon/TTF/horizon_outlined.ttf) format('truetype'),
+         url(../media/Font/Horizon/WOFF/horizon_outlined.woff) format('woff'),
+         url(../media/Font/Horizon/WOFF2/horizon_outlined.woff2) format('woff2');
+}
+
+/* Styling Var */
 :root {
     --primary-margin: 30px auto;
     --secondary-margin: 10px auto;
     --text-font: 'Montserrat', sans-serif;
+    --heading-normal: 'Horizon';
+    --heading-outlined: 'Horizon Outlined';
 }
 
 /* Single-use value */
@@ -9,11 +31,11 @@ body {
     background: #000;
 }
 body {
-    background-image: url('../media/images/bg.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
-    background-size: cover; /* Adjust as needed */
-    background-repeat: no-repeat; /* Adjust as needed */
-    background-position: center; /* Adjust as needed */
-    background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value (0.7 in this case) to control the exposure */
+    background-image: url('../media/images/bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0.6); 
 }
 
 h1 {
