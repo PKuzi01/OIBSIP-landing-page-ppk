@@ -7,13 +7,13 @@
 body {
     background: #000;
 }
-/* body {
-    background-image: url('your-image-url.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
+body {
+    background-image: url('../media/images/bg.jpg'); /* Replace 'your-image-url.jpg' with the URL of your image */
     background-size: cover; /* Adjust as needed */
     background-repeat: no-repeat; /* Adjust as needed */
     background-position: center; /* Adjust as needed */
     background-color: rgba(255, 255, 255, 0.7); /* Adjust the alpha value (0.7 in this case) to control the exposure */
-} */
+}
 
 h1 {
     font-size: 60px;
@@ -57,11 +57,13 @@ button {
 
 /* Same-value, multiple elements/class */
 h1, h3 {
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
+    color: #fff;
 }
 
 p, footer {
-font-family: var(--text-font);
+    font-family: var(--text-font);
+    color: #fff;
 }
 
 /* Tweaking bootstrap css vals */
