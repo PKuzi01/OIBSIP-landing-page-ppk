@@ -55,10 +55,22 @@ button {
     height: 100vh;
 }
 
-.logo {
-    margin-bottom: 3px;
+.heroText {
+    margin: var(--primary-margin);
+    color: #fff;
+    text-align: center;
+    letter-spacing: var(--letter-spacing);
 }
 
+.text1 {
+    font-family: var(--heading-normal);
+    margin: 0px;
+}
+
+.text2 {
+    font-family: var(--heading-outlined);
+    margin: 0px;
+}
 
 .summary {
     width: 45%;
@@ -80,11 +92,6 @@ button {
 }
 
 /* Same-value, multiple elements/class */
-h1, h3 {
-    font-family: var(--heading-font);
-    color: #fff;
-}
-
 p, footer {
     font-family: var(--text-font);
     color: #fff;
@@ -154,7 +161,7 @@ p, footer {
     100% {
         transform: translateY(0);
     }
-} */
+}
 
 /* Collage */
 /* .floating-2 {
