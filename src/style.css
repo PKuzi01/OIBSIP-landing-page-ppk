@@ -68,12 +68,9 @@ p, footer {
 
 /* Tweaking bootstrap css vals */
 /* Navbar */
-.container-fluid {
-    background-color: #000;
-}
-
 .navbar {
     padding: 0 !important;
+    background-color: transparent !important;
 }
 
 .navbar-brand {
