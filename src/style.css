@@ -1,6 +1,7 @@
 :root {
     --primary-margin: 30px auto;
     --secondary-margin: 10px auto;
+    --text-font: 'Montserrat', sans-serif;
 }
 
 /* Single-use value */
