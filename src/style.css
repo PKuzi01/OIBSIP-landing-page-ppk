@@ -17,7 +17,7 @@
          url(../media/Font/Horizon/WOFF2/horizon_outlined.woff2) format('woff2');
 }
 
-/* Styling Var */
+/* Styling vars */
 :root {
     --primary-margin: 30px auto;
     --secondary-margin: 10px auto;
@@ -28,7 +28,7 @@
     --text-color: #dddbdb;
 }
 
-/* Single-use value */
+/* Single-use values */
 body {
     background-image: url('../media/Images/bg.jpg');
     background-size: cover;
@@ -114,7 +114,7 @@ body {
     text-decoration: line-through 1px var(--text-color);
 }
 
-/* Same-value, multiple elements/class */
+/* Same-value, multiple elements/classes */
 p, footer {
     font-family: var(--text-font);
     color: var(--text-color);
@@ -126,7 +126,7 @@ p, footer {
     letter-spacing: var(--letter-spacing);
 }
 
-/* Tweaking bootstrap css vals */
+/* Tweaking bootstrap css values */
 /* Navbar */
 .navbar {
     padding: 0 !important;
