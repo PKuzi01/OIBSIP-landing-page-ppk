@@ -4,6 +4,8 @@
 ## Authoured by Philisizwe Kuzwayo
 ### Summary:
 A landing page built as part of the Oasis Infobyte Internship Programme requirement. For hosting purposes.
+You can find the repo with all my completed tasks here:
+[OIBSIP Task Repo](https://github.com/PKuzi01/OIBSIP-tasks-ppk)
 
 ### Process Notes:
 #### Wireframing
