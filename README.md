@@ -5,19 +5,19 @@
 ### Summary:
 A landing page built as part of the Oasis Infobyte Internship Programme requirement. For hosting purposes.
 
-#### Process Notes:
-##### Wireframing
+### Process Notes:
+#### Wireframing
 - [Oasis Infobyte Internship Level One Task One: Landing Page](https://philisizwekuzwayo569268.invisionapp.com/freehand/Oasis-Infobyte-Landing-Page-1KXoY8eu4)
 
-##### Languages used:
+#### Languages used:
 - HTML, CSS, JS
-##### Frameworks used:
+#### Frameworks used:
 - Bootstrap, Google Font
-##### Resources:
+#### Resources:
 - [Horizon Font](https://dafontfile.net/horizon-font-free-download.html)
 - Background Credit: (edited further by myself)
     - [Jellyfish In Water During Daytime by Joshua Rawson-Harris from Unsplash](https://unsplash.com/photos/white-jellyfish-in-water-during-daytime-7PMH-V2Lpew)
-##### Technologies used:
+#### Technologies used:
 - VSCode
 - Git/Github
 
