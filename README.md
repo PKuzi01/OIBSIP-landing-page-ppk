@@ -1,4 +1,7 @@
-# OIBSIP-landing-page-ppk
+# 2024 Oasis Infobyte Virtual Internship Programme
+# Level 1 Task 1: Landing Page
+## 5 February - 7 February
+### Authoured by Philisizwe Kuzwayo
 A landing page built as part of the Oasis Infobyte Internship Programme requirement. For hosting purposes.
 
 Wireframe for landing page:
