@@ -1,15 +1,12 @@
-# 2024 Oasis Infobyte Virtual Internship Programme
-# Level 1 Task 1: Landing Page
+# Landing Page
 ## 5 February - 7 February
 ## Authoured by Philisizwe Kuzwayo
 ### Summary:
-A landing page built as part of the Oasis Infobyte Internship Programme requirement. For hosting purposes.
-You can find the repo with all my completed tasks here:
-[OIBSIP Task Repo](https://github.com/PKuzi01/OIBSIP-tasks-ppk)
+A landing page built to practice my skill.
 
 ### Process Notes:
 #### Wireframing
-- [Oasis Infobyte Internship Level One Task One: Landing Page](https://philisizwekuzwayo569268.invisionapp.com/freehand/Oasis-Infobyte-Landing-Page-1KXoY8eu4)
+- [Landing Page Wireframe](https://philisizwekuzwayo569268.invisionapp.com/freehand/Landing-Page-1KXoY8eu4)
 
 #### Languages used:
 - HTML, CSS, JS
