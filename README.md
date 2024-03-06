@@ -1,8 +1,8 @@
 # Landing Page
-## 5 February - 7 February
+## 5 February 2024 - 7 February 2024
 ## Authoured by Philisizwe Kuzwayo
 ### Summary:
-A landing page built to practice my skill.
+A landing page built to practice my styling.
 
 ### Process Notes:
 #### Wireframing
